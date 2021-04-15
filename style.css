@@ -1,0 +1,426 @@
+body {
+
+    min-width:1100px;
+    min-height:600px;
+    width:100%;
+    height:120%;
+    margin:0;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    line-height: 26px;
+    font-family: 'Baloo Bhai';
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+
+    font-family: 'Baloo Bhai 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1,5em;
+    line-height: 1,5em;
+    color: #000000;
+}
+
+h2 {
+
+    font-family:'Baloo Bhai 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+
+h3 {
+
+    font-family: 'Baloo Bhai 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+p {
+
+    font-family: Roboto;
+    color: #000000;
+}
+
+/* ----------- aside ---------------- */
+
+aside {
+
+    height:95%;
+    width:9.2%;
+    margin-left: 2.25%;
+    background-color: #000000;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 2vw 0 6.16vw rgba(0,0,0,0.7);
+
+}
+
+.icon-f {
+
+    width:100%;
+    height:100%;
+    margin-top:45%;
+}
+
+.navigation {
+
+    height: 44.5%;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60%;
+}
+
+.icon-quit {
+
+    margin-top:95%;
+}
+
+/* ------------- main ---------------- */
+
+main {
+
+    margin-left:2%;
+    height:95%;
+    
+}
+
+/* ------------- header --------------- */
+
+.header {
+
+    display: flex;
+    align-items: center;
+    margin: 3.5em 4em 2.4em 3em;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    height: 160px;
+    width: 620px;
+    padding-left:4%;
+}
+
+.img-header {
+
+    position: absolute;
+    left: 40.07%;
+    right: 47.78%;
+    top: 5%;
+    bottom: 76.11%;
+}
+
+/* --------------- spain ---------------------*/
+
+.spain {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 2em 2.4em 3em;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    height: 80px;
+    width: 500.26px;
+
+}
+
+.spain-pic,
+.figma-pic,
+.analog-pic,
+.instagram-pic,
+.basics-pic,
+.photoshop-pic {
+
+    display: flex;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    justify-content: center;
+    margin: auto 24px auto 8px;
+}
+
+.spain-text h3,
+.figma-text h3,
+.analog-text h3,
+.instagram-text h3,
+.basics-text h3,
+.photoshop-text h3 {
+
+    margin:0px;
+}
+
+.spain-pic img,
+.figma-pic img,
+.analog-pic img,
+.instagram-pic img,
+.basics-pic img,
+.photoshop-pic img {
+
+    width:2em;
+}
+
+.spain-text {
+
+    margin-right:6em;
+}
+
+.spain-percent {
+
+    position:absolute;
+    margin-left:18em;
+    margin-top:1em;
+}
+
+.spain-percent-span {
+
+    position: relative;
+    left: -50%;
+    top: -16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+.spain-button,
+.figma-button,
+.analog-button,
+.instagram-button,
+.basics-button,
+.photoshop-button {
+
+    margin:10px;
+}
+
+.spain-button button,
+.figma-button button,
+.analog-button button,
+.instagram-button button,
+.basics-button button,
+.photoshop-button button,
+.banner-info button {
+
+    width: 120px;
+    height: 40px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.arrow-right-left {
+
+    position: absolute;
+    width: 96.1px;
+    height: 40px;
+    margin-left: 36em;
+    margin-top: -6em;
+    cursor: pointer;
+}
+
+.courses-section {
+
+    margin: 1em 2em 2.4em 3em;
+    height: 554.49px;
+    width: 620px;
+}
+
+
+
+.courses-list a,
+.statistic-menu a {
+
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Baloo Bhai 2';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right:2em;
+}
+
+.courses-list a:not(:first-child),
+.statistic-menu a:not(:first-child) {
+
+    opacity:.3;
+}
+
+.section-figma,
+.section-analog,
+.section-instagram,
+.section-basics,
+.section-photoshop {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-top:1em;
+    width: 620px;
+    height: 80px;
+}
+
+.figma-text,
+.instagram-text,
+.basics-text {
+
+   width:28%; 
+   margin-left:-40px;
+}
+
+.photoshop-text,
+.analog-text {
+    
+    margin-left:-40px;
+}
+
+.right-block {
+
+    display:flex;
+    flex-direction: column;
+    height: 95%;
+    margin-top:7%;
+    margin-left:3%;
+
+}
+
+.header-bar {
+
+    width: 438.9px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-header-bar {
+
+    background: #F5F5F7;
+    border-radius: 8px;
+    border:none;
+    width: 300px;
+    height: 40px;
+}
+
+.header-bar img {
+
+   margin-left:1em;
+}
+
+#search {
+    background-color: #F5F5F7;
+    width: 20.833333333333336vw;
+    height: 4.444444444444445vh;
+    border-radius: 1vh;
+    background-image: url(images/loop.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 0.5vw;
+    border: none;
+    text-align: center;
+}
+
+.stats-boxes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graph,
+.stats-boxes,
+.banner {
+    
+    margin-top:2em;
+}
+
+.stats-boxes-numb {
+    display: inherit;
+    width: 13.444444444444446vw;
+    height: 10.703vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1vh;
+    background: #F5F5F7;
+    font-size: 64px;
+    font-family: 'Baloo Bhai 2';
+    font-weight: 600;
+    
+}
+
+.stats-boxes-text {
+    display: inherit;
+    width: 5.3vw;
+    font-size: 16px;
+}
+
+.statistic-weekly {
+
+    margin-left:9em;
+}
+
+#select {
+
+
+    border-radius: 1vh;
+    cursor: pointer;
+    background: #F5F5F7;
+    width: 88px;
+    height: 32px;
+    border: none;
+    font-style: normal;
+    font-size: 13px;
+    padding-left: 1vw;
+}
+
+.banner {
+
+    width: 440px;
+    height: 193px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    background-image: url(images/book.svg);
+    background-repeat: no-repeat;
+    background-position:85% 50%;
+    
+}
+
+.banner-info {
+
+    display: flex;
+    flex-direction: column;
+    width: 179px;
+    margin: 2em 2em 1.4em 2em;
+    padding-top:1em;
+}
+
+.banner-info h2 {
+
+    margin:0px;
+}
